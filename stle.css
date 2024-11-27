@@ -1,0 +1,76 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+tr,th,td,table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    height: 700px;
+    width: 100%;
+}
+
+td{
+    padding: 4px;
+    padding-left: 50px;
+}
+
+tr :nth-child(1):hover{
+    background-color: #B1C29E;
+    color:white;
+}
+
+.web:hover{
+    background-color: #FF7F3E;
+    color:white;
+}
+
+.prog:hover{
+    background-color: #1F509A;
+    color:white;
+}
+
+.psy:hover{
+    background-color: #AE445A;
+    color:white;
+}
+ 
+.read:hover{
+    background-color: #FF2929;
+    color:white;
+}
+
+ 
+.math:hover{
+    background-color: #9ABF80;
+    color:white;
+}
+
+ 
+#pe:hover{
+    background-color: #640D5F;
+    color:white;
+}
+
+ 
+.rotc:hover{
+    background-color: #FFE31A;
+    color:black;
+}
+
+#title{
+    background-color: #CB9DF0;
+    color: white;
+}
+
+th{
+    background-color: #F0C1E1;
+    color: white;
+}
+
+td{
+    background-color: #C5D3E8;
+}
